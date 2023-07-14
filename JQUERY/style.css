@@ -1,0 +1,95 @@
+/* eventos.html */
+#caja {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#datos {
+    border: 4px dashed black;
+    padding: 10px;
+    width: 130px;
+    height: 60px;
+    margin-top: 10px;
+    display: none;
+}
+
+/* efectos.html */
+#caja__efectos {
+    width: 300px;
+    height: 50px;
+    border: 3px dashed black;
+    background: #e9ff22;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+
+/* ajax.html */
+#datos-ajax {
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+
+/* interfaz.html */
+.elemento {
+    width: 300px;
+    height: 200px;
+    border: 4px solid black;
+    background-color: lightblue;
+    margin: 20px;
+    float: left;
+}
+
+.lista-seleccionable li{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid red;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul .ui-selecting {
+    background-color: green;
+}
+
+ul .ui-selected {
+    background-color: blueviolet;
+}
+
+#elemento-movido {
+    width: 300px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+#area {
+    width: 300px;
+    height: 100px;
+    border: 3px solid green;
+}
+
+.elemento-dos {
+    width: 300px;
+    height: 200px;
+    border: 4px solid black;
+    background-color: pink;
+    float: none;
+    display: none;
+}
+
+#popup {
+    display: none;
+}
